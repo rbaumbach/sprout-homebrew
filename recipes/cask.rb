@@ -5,8 +5,8 @@ directory '/usr/local/Library/Taps' do
   recursive true
 end
 
-execute 'tap cask' do
-  command 'brew tap "phinze/cask"'
+execute 'install homebrew cask' do
+  command 'brew install caskroom/cask/brew-cask'
   user node['sprout']['user']
 end
 
