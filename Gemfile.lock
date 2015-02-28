@@ -115,5 +115,4 @@ PLATFORMS
 
 DEPENDENCIES
   foodcritic
-  plist
   soloist
